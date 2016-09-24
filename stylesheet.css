@@ -1,0 +1,47 @@
+
+main {
+    box-sizing:border-box;
+    font-size:0;
+}
+nav {
+    height:50px;
+    width:100%;
+    background-color:lightgrey;
+    border-bottom:1px solid lightgray;
+}
+a:visited {
+    color:rebeccapurple;
+}
+nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:black;
+    font-weight:150;
+    font-size:1.25em;
+    display:inline-block;
+    position:relative;
+    padding-left:15px;
+    padding-top:15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.nav-right {
+    display:inline-block;
+    float:right;
+    margin-right:10px;
+    margin-left:10px;
+    
+}
+.search-box {
+    height:25px;
+    width:250px;
+    border:1px solid grey;
+    border-radius:10%;
+    display:inline;
+}
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
