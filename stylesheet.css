@@ -4,7 +4,7 @@ main {
     font-size:0;
 }
 nav {
-    height:50px;
+    height:40px;
     width:100%;
     background-color:lightgrey;
     border-bottom:1px solid lightgray;
@@ -15,12 +15,12 @@ a:visited {
 nav a {
     font-family: 'Roboto Condensed', sans-serif;
     color:black;
-    font-weight:150;
-    font-size:1.25em;
+    font-weight:200;
+    font-size:1.15em;
     display:inline-block;
     position:relative;
-    padding-left:15px;
-    padding-top:15px;
+    padding-left:5px;
+    padding-top:12px;
     text-decoration: none;
 }
 nav a:hover {
@@ -31,12 +31,25 @@ nav a:hover {
     float:right;
     margin-right:10px;
 }
-.search-box {
-    height:25px;
-    width:250px;
-    border:1px solid grey;
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left:75px;
+    margin-top:75px;
+}
+input {
+    font-family: 'Roboto Condensed';
+    font-size: 1.15em;
+    margin-left:50px;
+    margin-top:100px;
+    height:30px;
+    width:400px;
     border-radius:10%;
     display:inline;
+}
+input button {
+    background-image:url("images/magnifying-glass.png");
+    height:50px;
+    width:50px;
 }
 /*
 font-family: 'Open Sans', sans-serif;
