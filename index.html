@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>GregsList</title>
-  <meta charset="utf-8" name="description" content="gregslist classifieds online sale buy search">
+    <title>GregsList</title>
+    <meta charset="utf-8" name="description" content="gregslist classifieds online sale buy search">
     <!--Meyer reset link in seperate css stylesheet-->
     <link href="meyerreset.css" rel="stylesheet">
-  <!-- fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed|Slabo+27px" rel="stylesheet">
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed|Slabo+27px" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
+
 <body>
+
     <nav>
         <a href="http://www.gregslist.org">Greg's List</a>
         <a href="" class='nav-right'>Account</a>
         <a href="" class='nav-right'>Post</a>
     </nav>
-    <div class="s_parent">
+
+    <div class="container">
+        <div class="label">Search Jobs</div>
         <form class="search">
-           <label>Search Jobs</label>
+
             <input type="search" name="Developer, designer, internship..." placeholder="Developer, designer, internship...">
-            <input type="button" onclick="alert('Hello World!')" value="" class="button">
+
+            <button class="button"></button>
+
         </form>
     </div>
+    <div class="container two">
+        <div class="pagination prev">prev</div>
+        <div class="display_page">1 to 100 of 179</div>
+        <div class="pagination next">next</div>
+    </div>
+
 </body>
+
 </html>

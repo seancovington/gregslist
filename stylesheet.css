@@ -1,67 +1,127 @@
-
 main {
-    box-sizing:border-box;
-    font-size:0;
+    box-sizing: border-box;
+    font-size: 0;
 }
+
 nav {
-    height:40px;
-    width:100%;
-    background-color:lightgrey;
-    border-bottom:1px solid lightgray;
+    height: 40px;
+    width: 100%;
+    background-color: lightgrey;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 35px;
 }
+
 a:visited {
-    color:rebeccapurple;
+    color: rebeccapurple;
 }
+
 nav a {
     font-family: 'Roboto Condensed', sans-serif;
-    color:black;
-    font-weight:200;
-    font-size:1.15em;
-    display:inline-block;
-    position:relative;
-    padding-left:5px;
-    padding-top:12px;
+    color: black;
+    font-weight: 200;
+    font-size: 1.15em;
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+    padding-top: 12px;
     text-decoration: none;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
+
 .nav-right {
-    display:inline-block;
-    float:right;
-    margin-right:10px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
 }
-.s_parent {
-    height:150px;
-    width:85%;
-    margin:0 auto;
-    padding-left:45px;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
 }
+
 .search {
-    display:flex;
+    display: flex;
     align-content: center;
 }
-label {
+
+.label {
     font-family: 'Roboto Condensed', Sans-serif;
-    height:50px;
+    height: 15px;
+    display: inline-flex;
 }
+
 input {
     font-family: 'Roboto Condensed';
     font-size: 1.15em;
-    margin-left:15px;
-    margin-top:100px;
-    height:30px;
-    width:400px;
-    border-radius:5px;
-    display:inline;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    display: inline-flex;
+    border-style: none;
+    border: 1px solid gray;
 }
+
+.label {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
 .button {
-    background-image:url("images/magnifying-glass.png");
+    background-image: url("images/magnifying-glass.png");
     background-position: center;
-    background-size:cover;
-    height:30px;
-    width:30px;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    border: 1px solid gray;
 }
+
+.two {
+    font-family: 'Roboto Condensed';
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.pagination {
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+.prev {
+    border-bottom-left-radius: 2.5px;
+    border-top-left-radius: 2.5px;
+    width: 60px;
+}
+
+.next {
+    border-bottom-right-radius: 2.5px;
+    border-top-right-radius: 2.5px;
+    width: 60px;
+}
+
+.display_page {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 125px;
+}
+
+
 /*
 font-family: 'Open Sans', sans-serif;
 font-family: 'Slabo 27px', serif;
