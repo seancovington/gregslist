@@ -136,6 +136,11 @@ input {
     content: " >";
 }
 
+results {
+    display: inline-flex;
+    flex-direction: row;
+}
+
 
 /*
 font-family: 'Open Sans', sans-serif;
