@@ -147,16 +147,21 @@ input {
     font-size: 1.5em;
 }
 
-.date ul {
+.date,
+.title,
+.city {
+    display: inline-block
+}
+
+.date {
     width: 90px;
     padding-right: 5px;
     text-align: center;
 }
 
-.title ul {
+.title {
     font-weight: bolder;
     color: blue;
-    width: auto;
     padding-right: 5px;
     text-align: left;
 }
